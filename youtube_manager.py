@@ -4,6 +4,7 @@ from bson import ObjectId
 client  = MongoClient("mongodb+srv://heyboy:heyboy@youtube.jdd8wbf.mongodb.net/")
 # I've deleted This user 
 # contact deshmaneyogesh2002@gmail.com
+# update The role of This User form reader to can able to write
 
 db = client["ytmanager"]
 video_collection = db["videos"]
